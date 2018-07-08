@@ -16,4 +16,13 @@ class DiceGame{
     this.sumDice += die;
     return die;
   }
+  public void judge(String name){
+    System.out.print(name);
+    if(getSumDice() >= 7){
+      System.out.println(" won!");
+    }
+    else{
+      System.out.println(" lose!");
+    }
+  }
 }

@@ -25,6 +25,7 @@ class Greeting{
   public void greeting(){
     System.out.println("Hello, " + getName() + "!");
   }
+ 
 
   public void greet(){
     setName();

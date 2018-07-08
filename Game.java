@@ -9,5 +9,7 @@ class Game{
       System.out.println("Die " + (i+1) + ": " + game.shakeDie());
     }
     System.out.println("Total value: " + game.getSumDice());
+
+    game.judge(greeting.getName());
   }
 }
