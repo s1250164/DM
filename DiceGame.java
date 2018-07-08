@@ -8,6 +8,7 @@ class DiceGame{
   public int getSumDice(){
     return this.sumDice;
   }
+
   public int shakeDie(){
     int die;
     Random rand = new Random();
