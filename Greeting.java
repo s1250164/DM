@@ -21,9 +21,12 @@ class Greeting{
   public void setName(String name){
     this.name = name;
   }
+
   public void greeting(){
     System.out.println("Hello, " + getName() + "!");
   }
+ 
+
   public void greet(){
     setName();
     greeting();
